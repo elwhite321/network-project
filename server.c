@@ -45,7 +45,7 @@ int main(int argc, char *argv[]) {
             exp_seg++;
 
         if ( strncmp(data.payload, "no ack", data.len) == 0){
-            printf("No ack requeested\n");
+            printf("No ack requested\n");
             continue;
         }
 
